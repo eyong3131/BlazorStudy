@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/eyong/project/C#/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj": {}
+  },
+  "projects": {
+    "/home/eyong/project/C#/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eyong/project/C#/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj",
+        "projectName": "SimpleCrud.Client",
+        "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj",
+        "packagesPath": "/home/eyong/.nuget/packages/",
+        "outputPath": "/home/eyong/project/C#/Crud/SimpleCrud/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eyong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {
+                "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.8, 6.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/home/eyong/project/C#/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eyong/project/C#/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj",
+        "projectName": "SimpleCrud.Server",
+        "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj",
+        "packagesPath": "/home/eyong/.nuget/packages/",
+        "outputPath": "/home/eyong/project/C#/Crud/SimpleCrud/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eyong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/eyong/project/C#/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj": {
+                "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj"
+              },
+              "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {
+                "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
+        "projectName": "SimpleCrud.Shared",
+        "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
+        "packagesPath": "/home/eyong/.nuget/packages/",
+        "outputPath": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eyong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
