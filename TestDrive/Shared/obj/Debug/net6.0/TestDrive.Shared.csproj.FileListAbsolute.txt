@@ -1,0 +1,12 @@
+/home/eyong/project/C#/TestDrive/Shared/bin/Debug/net6.0/TestDrive.Shared.deps.json
+/home/eyong/project/C#/TestDrive/Shared/bin/Debug/net6.0/TestDrive.Shared.dll
+/home/eyong/project/C#/TestDrive/Shared/bin/Debug/net6.0/TestDrive.Shared.pdb
+/home/eyong/project/C#/TestDrive/Shared/obj/Debug/net6.0/TestDrive.Shared.csproj.AssemblyReference.cache
+/home/eyong/project/C#/TestDrive/Shared/obj/Debug/net6.0/TestDrive.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/eyong/project/C#/TestDrive/Shared/obj/Debug/net6.0/TestDrive.Shared.AssemblyInfoInputs.cache
+/home/eyong/project/C#/TestDrive/Shared/obj/Debug/net6.0/TestDrive.Shared.AssemblyInfo.cs
+/home/eyong/project/C#/TestDrive/Shared/obj/Debug/net6.0/TestDrive.Shared.csproj.CoreCompileInputs.cache
+/home/eyong/project/C#/TestDrive/Shared/obj/Debug/net6.0/TestDrive.Shared.dll
+/home/eyong/project/C#/TestDrive/Shared/obj/Debug/net6.0/refint/TestDrive.Shared.dll
+/home/eyong/project/C#/TestDrive/Shared/obj/Debug/net6.0/TestDrive.Shared.pdb
+/home/eyong/project/C#/TestDrive/Shared/obj/Debug/net6.0/ref/TestDrive.Shared.dll

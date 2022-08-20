@@ -1,0 +1,38 @@
+﻿@page "/mytestdrive"
+@inject ITestDriveService TestDriveService
+
+<PageTitle>Test Drive Service</PageTitle>
+
+<h3>TestDrivePage</h3>
+@if (TestDriveService.MyList.Count <= 0)
+{
+    <span>loading.................</span>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var list in TestDriveService.MyList)
+            {
+                <td>@list.Id</td>
+                <td>@list.FirstName</td>
+                <td>@list.LastName</td>
+                <td>@list.Gender</td>
+            }
+        </tbody>
+    </table>
+}
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await TestDriveService.GetMyList();
+    }
+}
