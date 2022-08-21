@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hj9EdKAd++MLAJ7gZdVuMPYqc9KyDK6p7YW9W4bR2Fa435na2MMuqKwuGDuOblql+TbGu9j3PFWnif9jEpPDKw==",
+  "dgSpecHash": "tmx8C1M1mvtJPEnSvURrY0+teJ2zWk+c8OZn30/q/cWcbd/DZSs2Z1vNqVmOkmebV38ElaobRuDu6G0+CytcIQ==",
   "success": true,
-  "projectFilePath": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
+  "projectFilePath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

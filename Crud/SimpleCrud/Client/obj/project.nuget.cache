@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gBBDjkX7VwncZqu2ZFBAiVgzTOUuj3/3rycXd9Vlvcs80nZymD05YHH0FX+JoCgVEpHbZcmBqLpCzWrUpx6qnw==",
+  "dgSpecHash": "JAmPCTHXJ/b1DdVL3T4erCk/cw8sqARFCE84UzLGVbWWn+iApr40Z/FgHtm874anEMIKAUXsyG6sBrH9M2MTkw==",
   "success": true,
-  "projectFilePath": "/home/eyong/project/C#/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj",
+  "projectFilePath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj",
   "expectedPackageFiles": [
     "/home/eyong/.nuget/packages/microsoft.aspnetcore.authorization/6.0.8/microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
     "/home/eyong/.nuget/packages/microsoft.aspnetcore.components/6.0.8/microsoft.aspnetcore.components.6.0.8.nupkg.sha512",

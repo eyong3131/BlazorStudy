@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {}
+    "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {}
   },
   "projects": {
-    "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {
+    "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
+        "projectUniqueName": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
         "projectName": "SimpleCrud.Shared",
-        "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
+        "projectPath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
         "packagesPath": "/home/eyong/.nuget/packages/",
-        "outputPath": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/obj/",
+        "outputPath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/eyong/.nuget/NuGet/NuGet.Config"

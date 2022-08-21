@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/eyong/project/C#/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj": {}
+    "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj": {}
   },
   "projects": {
-    "/home/eyong/project/C#/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj": {
+    "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eyong/project/C#/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj",
+        "projectUniqueName": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj",
         "projectName": "SimpleCrud.Client",
-        "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj",
+        "projectPath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj",
         "packagesPath": "/home/eyong/.nuget/packages/",
-        "outputPath": "/home/eyong/project/C#/Crud/SimpleCrud/Client/obj/",
+        "outputPath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/eyong/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {
-                "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj"
+              "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {
+                "projectPath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "/home/eyong/project/C#/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj": {
+    "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eyong/project/C#/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj",
+        "projectUniqueName": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj",
         "projectName": "SimpleCrud.Server",
-        "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj",
+        "projectPath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Server/SimpleCrud.Server.csproj",
         "packagesPath": "/home/eyong/.nuget/packages/",
-        "outputPath": "/home/eyong/project/C#/Crud/SimpleCrud/Server/obj/",
+        "outputPath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/eyong/.nuget/NuGet/NuGet.Config"
@@ -105,11 +105,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/eyong/project/C#/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj": {
-                "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj"
+              "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj": {
+                "projectPath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Client/SimpleCrud.Client.csproj"
               },
-              "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {
-                "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj"
+              "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {
+                "projectPath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj"
               }
             }
           }
@@ -125,6 +125,20 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.8, )"
             }
@@ -152,14 +166,14 @@
         }
       }
     },
-    "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {
+    "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
+        "projectUniqueName": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
         "projectName": "SimpleCrud.Shared",
-        "projectPath": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
+        "projectPath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/SimpleCrud.Shared.csproj",
         "packagesPath": "/home/eyong/.nuget/packages/",
-        "outputPath": "/home/eyong/project/C#/Crud/SimpleCrud/Shared/obj/",
+        "outputPath": "/home/eyong/project/C#/BlazorStudy/Crud/SimpleCrud/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/eyong/.nuget/NuGet/NuGet.Config"
