@@ -1,0 +1,76 @@
+﻿@page "/individual"
+@page "/individual/{id:int}"
+@inject IPersonService PersonService
+
+@if (Id == null)
+{
+    <PageTitle>Person by individual</PageTitle>
+    <h3>Person by Individual</h3>
+}
+else
+{
+    <PageTitle>Edit Information: @person.FirstName</PageTitle>
+    <h3>Edit Information: @person.FirstName</h3>
+}
+<EditForm Model="person" OnSubmit="HandleSubmit">
+    <div>
+        <label for="firstname">First Name</label>
+        <InputText id="firstname" class="form-control" @bind-Value="person.FirstName"></InputText>
+    </div>
+    <div>
+        <label for="lastname">Last Name</label>
+        <InputText id="lastname" class="form-control" @bind-Value="person.LastName"></InputText>
+    </div>
+    <div>
+        <label for="occupation">Occupation</label>
+        <InputSelect @bind-Value="person.OccupationId" class="form-control">
+            @foreach (var occupation in PersonService.Occupations)
+            {
+                <option value="@occupation.Id">@occupation.OccupationName</option>
+            }
+        </InputSelect>
+    </div>
+    <div>
+        <label for="company">Company</label>
+        <InputSelect @bind-Value="person.CompanyId" class="form-control">
+            @foreach (var company in PersonService.Companies)
+            {
+                <option value="@company.Id">@company.CompanyName</option>
+            }
+        </InputSelect>
+    </div>
+</EditForm>
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+
+    string btnTxt = string.Empty;
+    Person person = new Person { Occupation = new Occupation(), Company = new Company() };
+
+    protected override async Task OnInitializedAsync()
+    {
+        btnTxt = Id == null ? "Save new Person" : "Update Information";
+        await PersonService.GetCompanies();
+        await PersonService.GetOccupations();
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if(Id == null)
+        {
+            //TODO
+        }
+        else
+        {
+            //person = await PersonService.Get
+        }
+    }
+
+    
+
+    async Task HandleSubmit()
+    {
+        throw new Exception("Just wait will you!");
+    }
+
+}
