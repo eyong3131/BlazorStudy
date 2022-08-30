@@ -103,7 +103,7 @@ namespace SimpleCrud.Server.Controllers
             */
             person.Company = null;
             person.Occupation = null;
-            
+
             /*
             * don't get confused here, 
             * from Person base Object 
@@ -129,8 +129,8 @@ namespace SimpleCrud.Server.Controllers
         *
         */
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Person>> UpdatePerson(Person person, int id)
+        [HttpPut("{id}")]
+        public async Task<ActionResult<List<Person>>> UpdatePerson(Person person, int id)
         {
             /*
             * we are getting information from the database here,
@@ -161,7 +161,7 @@ namespace SimpleCrud.Server.Controllers
 
             await _context.SaveChangesAsync();
 
-            return Ok(GetDbPersons());
+            return Ok(await GetDbPersons());
         }
         /*
         * we use HttpDelete/API to delete information from the database
@@ -170,7 +170,7 @@ namespace SimpleCrud.Server.Controllers
         *
         */
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Person>> DeletePerson(int id)
+        public async Task<ActionResult<List<Person>>> DeletePerson(int id)
         {
             var dbPerson = await _context.Persons
                 .Include(sh => sh.Occupation)
@@ -183,7 +183,7 @@ namespace SimpleCrud.Server.Controllers
             _context.Persons.Remove(dbPerson);
             await _context.SaveChangesAsync();
 
-            return Ok(GetDbPersons());
+            return Ok(await GetDbPersons());
         }
 
         /*
@@ -209,5 +209,19 @@ namespace SimpleCrud.Server.Controllers
                 .Include(h => h.Company)
                 .ToListAsync();
         }
-    }
+        /*
+        *
+        * We are now creating dynamic input for relational database
+        *
+        *
+        */
+        private async Task<List<Company>> GetDbCompany()
+        {
+            return await _context.Companies.ToListAsync();
+        }
+        private async Task<List<Occupation>> GetDbOccupation()
+        {
+            return await _context.Occupations.ToListAsync();
+        }
+}
 }

@@ -22,6 +22,16 @@ else
         <InputText id="lastname" class="form-control" @bind-Value="person.LastName"></InputText>
     </div>
     <div>
+        <label for="testInput">Test Occupation</label>
+        <input id="test" class="form-control" list="occupationTest" value="@person.Occupation.OccupationName"  />
+        <datalist id="occupationTest">
+            @foreach (var occupation in PersonService.Occupations)
+            {
+                <option value="@occupation.Id">@occupation.OccupationName</option>
+            }
+        </datalist>
+    </div>
+    <div>
         <label for="occupation">Occupation</label>
         <InputSelect @bind-Value="person.OccupationId" class="form-control">
             @foreach (var occupation in PersonService.Occupations)
@@ -39,6 +49,13 @@ else
             }
         </InputSelect>
     </div>
+    <br />
+    <button type="submit" class="btn btn-primary">@btnTxt</button>
+    @if (Id != null)
+    {
+            <button type="button" class="btn btn-danger" @onclick="DeletePerson">Delete Person Information</button>
+    }
+
 </EditForm>
 @code {
     [Parameter]
@@ -58,11 +75,15 @@ else
     {
         if(Id == null)
         {
-            //TODO
+            person.Occupation = PersonService.Occupations[0];
+            person.OccupationId = person.Occupation.Id;
+
+            person.Company = PersonService.Companies[0];
+            person.CompanyId = person.Company.Id;
         }
         else
         {
-            //person = await PersonService.Get
+            person = await PersonService.GetSinglePerson((int)Id);
         }
     }
 
@@ -70,7 +91,17 @@ else
 
     async Task HandleSubmit()
     {
-        throw new Exception("Just wait will you!");
+        if(Id == null)
+        {
+            await PersonService.CreatePerson(person);
+        }
+        else
+        {
+            await PersonService.UpdatePerson(person);
+        }
     }
-
+    async Task DeletePerson()
+    {
+        await PersonService.DeletePerson(person.Id);
+    }
 }

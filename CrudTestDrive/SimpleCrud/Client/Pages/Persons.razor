@@ -35,7 +35,7 @@
         }
     </tbody>
 </table>
-
+<button class="btn btn-primary" @onclick="CreateNewPerson">New Person</button>
 
 @code {
 
@@ -47,6 +47,10 @@
     void ShowPerson(int id)
     {
         NavigationManager.NavigateTo($"/individual/{id}");
+    }
+    void CreateNewPerson()
+    {
+        NavigationManager.NavigateTo("/individual");
     }
 
 }

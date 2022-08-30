@@ -1,0 +1,12 @@
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/bin/Debug/net6.0/SimpleCrud.Shared.deps.json
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/bin/Debug/net6.0/SimpleCrud.Shared.dll
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/bin/Debug/net6.0/SimpleCrud.Shared.pdb
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/obj/Debug/net6.0/SimpleCrud.Shared.csproj.AssemblyReference.cache
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/obj/Debug/net6.0/SimpleCrud.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/obj/Debug/net6.0/SimpleCrud.Shared.AssemblyInfoInputs.cache
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/obj/Debug/net6.0/SimpleCrud.Shared.AssemblyInfo.cs
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/obj/Debug/net6.0/SimpleCrud.Shared.csproj.CoreCompileInputs.cache
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/obj/Debug/net6.0/SimpleCrud.Shared.dll
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/obj/Debug/net6.0/refint/SimpleCrud.Shared.dll
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/obj/Debug/net6.0/SimpleCrud.Shared.pdb
+/home/eyong/project/C#/BlazorStudy/CrudTestDrive/SimpleCrud/Shared/obj/Debug/net6.0/ref/SimpleCrud.Shared.dll

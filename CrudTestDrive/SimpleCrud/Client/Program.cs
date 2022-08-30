@@ -1,5 +1,6 @@
 global using SimpleCrud.Shared.Person;
 global using SimpleCrud.Client.Services.PersonServices;
+global using SimpleCrud.Shared;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using SimpleCrud.Client;
